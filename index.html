@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            header {
+                position: fixed;
+                top: 0;
+            }
+            span {
+                position: fixed;
+                bottom: 0;
+            }
+            #head-left {
+                left: 0;
+            }
+            #head-right {
+                position: fixed;
+                top: 0;
+                right: 0;
+            }
+            #main {
+                display: grid;
+                grid-auto-columns: auto;
+                width: 500px;
+                padding-top: 109px;
+                margin: auto;
+            }
+            #logo {
+                height: 92px;
+                width: auto;
+                margin: auto;
+                padding-bottom: 10px;
+            }
+            #buttons {
+                padding-top: 10px;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <header><div id=head-left>About Store</div><div id=head-right>Gmail Images</div></header>
+    <div id=main>
+        <img id=logo src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png">
+        <input id=search>
+        <div id=buttons><button>Google Search</button><button>I'm Feeling Lucky</button></div>
+    </div>
+    <span>test text</span>
+</html>
